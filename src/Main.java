@@ -79,7 +79,7 @@ public class Main {
         var weightBoxer2 = 82.7;
         var weightDifference1 = weightBoxer2 - weightBoxer1;
         System.out.println(weightDifference1);
-        var weightDifference2 = (weightBoxer1 + weightBoxer2) % weightBoxer1;
+        var weightDifference2 = weightBoxer2 % weightBoxer1;
         System.out.println(weightDifference2);
     }
     public static void task8() {
